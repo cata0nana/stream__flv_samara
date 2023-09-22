@@ -10,8 +10,12 @@ git pull origin main
 
 chmod +x /root/lia_pro/script_ffmpeg.sh
 sed -i "s/babajackson84/$live_user/g" /root/lia_pro/rigle.py
+while true
+do
+kill -9 `pidof ffmpeg`
 python3 -u part1.py
 
+done
 
 #while true
 #do
