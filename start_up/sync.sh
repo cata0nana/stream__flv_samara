@@ -8,7 +8,7 @@ git pull origin main
 
 
 
-chmod +x /root/lia_pro/script_ffmpeg.sh
+chmod +x /root/lia_pro/*
 sed -i "s/babajackson84/$live_user/g" /root/lia_pro/rigle.py
 while true
 do
